@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Signup page
+            <a href="./login.html">or Log in</a>
+        </h1>
+        <form id="signup-form" name="SignupForm">
+            <label for="" class="labeltext">First Name</label>
+            <input type="text" id="firstname" placeholder="e.g, mark" required>
+            <label for="" class="labeltext">Last Name</label>
+            <input type="text" id="lastname" placeholder="e.g.,green" required>
+            <label for="" class="labeltext">Email</label>
+            <input type="email" id="email" placeholder="e.g.,test@upgrad.com" required>
+            <label for="" class="labeltext">Password</label>
+            <input type="password" id="password" placeholder="e.g.,xxyyxxzz" required>
+            <label for="" class="labeltext">Mobile</label>
+            <input type="tel" id="mobile" placeholder="e.g.,982956xxxx" required>
+            <button id="signup-btn" type="submit" onclick="Signup(firstname,lastname,email,password,mobile)">Sign up</button>
+        </form>
+    </div>
+</body>
+</html>
